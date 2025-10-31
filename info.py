@@ -9,8 +9,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Rishu_movie_bot')
-API_ID = int(environ.get('API_ID', '25265'))
-API_HASH = environ.get('API_HASH', 'd1af24bbfe438cae67372abf1')
+API_ID = int(environ.get('API_ID', '25274965'))
+API_HASH = environ.get('API_HASH', 'd1af246ebbfb198fe438cae67372abf1')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7641362238:AAHbSJamV-koksbJU1ik6Z20CIF3zw_6Boo")
 
 
@@ -187,5 +187,6 @@ else:
     OTHER_DB_URI = O_DB_URI       # This Db Is For Other Data Store
     FILE_DB_URI = F_DB_URI        # This Db Is For File Data Store
     SEC_FILE_DB_URI = S_DB_URI    # This Db is for File Data Store When First Db Is Going To Be Full.
+
 
 
