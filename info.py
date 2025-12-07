@@ -73,10 +73,35 @@ S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When F
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
 
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
-REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
+REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '10')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
-PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/98f8265a4db67c3a8a2cf-c4266df013ef6767a7.jpg') # payment code picture url.
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b><blockquote>⍟───[ Aᴠᴀɪʟᴀʙʟᴇ Pʟᴀɴs ]───⍟</blockquote>\n\n➠ 50ʀs - 1 Wᴇᴇᴋ\n➠ 50ʀs - 1 Mᴏɴᴛʜs\n➠ 120ʀs - 3 Mᴏɴᴛʜs\n➠ 220ʀs - 6 Mᴏɴᴛʜs\n\n🎁 Pʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇs 🎁\n\n○ Nᴏ Nᴇᴇᴅ Tᴏ Vᴇʀɪғʏ\n○ Nᴏ Nᴇᴇᴅ Tᴏ Oᴘᴇɴ Lɪɴᴋ\n○ Dɪʀᴇᴄᴛ Fɪʟᴇs\n○ Aᴅ-Fʀᴇᴇ Exᴘᴇʀɪᴇɴᴄᴇ\n○ Hɪɢʜ-Sᴘᴇᴇᴅ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ\n○ Mᴜʟᴛɪ-Pʟᴀʏᴇʀ Sᴛʀᴇᴀᴍɪɴɢ Lɪɴᴋs\n○ Uɴʟɪᴍɪᴛᴇᴅ Mᴏᴠɪᴇs & Sᴇʀɪᴇs\n○ Fᴜʟʟ Aᴅᴍɪɴ Sᴜᴘᴘᴏʀᴛ\n○ Rᴇǫᴜᴇsᴛ Wɪʟʟ Bᴇ Cᴏᴍᴘʟᴇᴛᴇᴅ Iɴ 1ʜ Iꜰ Aᴠᴀɪʟᴀʙʟᴇ\n\n✨  Iᴅ - <code>rishabhxdev@fam</code>\n\nCʟɪᴄᴋ Tᴏ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ /myplan\n\n💢 Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ\n\n‼️ Aғᴛᴇʀ Sᴇɴᴅɪɴɢ A Sᴄʀᴇᴇɴsʜᴏᴛ Pʟᴇᴀsᴇ Gɪᴠᴇ Us Sᴏᴍᴇ Tɪᴍᴇ Tᴏ Aᴅᴅ Yᴏᴜ Iɴ Tʜᴇ Pʀᴇᴍɪᴜᴍ</b>')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://image.zaw-myo.workers.dev/image/95f7259e-2fc7-4829-b558-b12ee55ef297') # payment code picture url.
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>'
+'<blockquote>⍟───[ Premium Plans ]───⍟</blockquote>\n\n'
+'• ၁ လ အစီအစဉ် [ ၉၀၀ ကျပ် ] \n'
+'• ၂ လ အစီအစဉ် [ ၁၀၀၀ ကျပ် ] \n'
+'• ၃ လ အစီအစဉ် [ ၁၈၀၀ ကျပ် ] \n'
+'• ၆ လ အစီအစဉ် [ ၃၀၀၀ ကျပ် ] \n'
+'• ၉ လ အစီအစဉ် [ ၅၀၀၀ ကျပ် ] \n'
+'• ၁ နှစ် အစီအစဉ် [ ၈၀၀၀ ကျပ် ]\n'
+'• ၂ နှစ် အစီအစဉ် [ ၁၅၀၀၀ ကျပ် ]\n\n'
+'🎁 ပရီမီယံ အားသာချက်များ 🎁\n\n'
+'○ အတည်ပြုရန်မလို\n'
+'○ လင့်ခ်ဖွင့်ရန်မလို\n'
+'○ တိုက်ရိုက်ဖိုင်များ\n'
+'○ ကြော်ငြာကင်းသော\n'
+'○ အမြန်နှုန်း ဒေါင်းလုဒ်လင့်ခ်\n'
+'○ များစွာသောကြည့်ရှုသူများအတွက် စတီးရင်လင့်ခ်\n'
+'○ ဇာတ်လမ်းတွဲနှင့် ရုပ်ရှင် အကန့်အသတ်မရှိ\n'
+'○ ငွေလွှဲ တောင်းဆိုချက်များ ၁ နာရီအတွင်း ပြီးမြောက်မည်\n\n'
+'✨ ငွေလွဲနည်းလမ်းများ:\n\n'
+'Wave Pay - 09692136748\n'
+'Nan Cho\n\n'
+'အက်မင်အကောင့် - @itachiXCoder\n\n'
+'သင်၏ Premium ကို စစ်ဆေးရန် /myplan ကိုနှိပ်ပါ\n\n'
+'💢 Member ဝင်မည်ဆိုပါက ငွေလွဲ Screen Shot အား Admin ထံပို့ပေးပါ။\n\n'
+'‼️ စခရင်ရိုက်ပုံ ပေးပို့ပြီးနောက် သင့်အား ပရီမီယံ ထည့်သွင်းပါမည်'
+'</b>')
 
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
@@ -86,10 +111,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/LKFilm_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/LKFilmBotss')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LKFilm_Group') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Cader_r')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviemmsb_gp')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movie_mmsb')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/moviemmsb_gp') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/itachiXCoder')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -133,7 +158,7 @@ TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Cha
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'Hᴇʟʟᴏ Mʏ Dᴇᴀʀ Fʀɪᴇɴᴅs ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'မင်္ဂလာပါ မိတ်ဆွေ ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
@@ -141,7 +166,7 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 
 
 # Choose Option Settings 
-LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
+LANGUAGES = ["burmese", "mmsb"]
 SEASONS = ["season 1", "season 2", "season 3", "season 4", "season 5", "season 6", "season 7", "season 8", "season 9", "season 10"]
 EPISODES = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10", "E11", "E12", "E13", "E14", "E15", "E16", "E17", "E18", "E19", "E20", "E21", "E22", "E23", "E24", "E25", "E26", "E27", "E28", "E29", "E30", "E31", "E32", "E33", "E34", "E35", "E36", "E37", "E38", "E39", "E40"]
 QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
